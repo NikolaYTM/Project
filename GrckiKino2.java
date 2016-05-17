@@ -132,6 +132,7 @@ public class GrckiKino2 {
 			}
 
 			uporedi(brojPodudarenih, brojUnesenih);// Ovde je pozvana metoda UPOREDI koja kao parametar prima brojPodudarenih i brojUnesenih i uporedjuje ih.
+		
 		}
 		catch(Exception e){   
 			infoBox("GRESKA", "Desila se greska u kreiranju tiketa");
@@ -139,6 +140,7 @@ public class GrckiKino2 {
 			System.exit(0);
 		}
 	}
+	//GITHUB TEST
 	//KRAJ SASTAVI MOJ TIKET METODE
 
 	public static void uporedi(int one, int two){ // Metoda uporedi dva broja, koja dobija kao parametar sluzi da se proveri dal je tiket prosao ili ne.
